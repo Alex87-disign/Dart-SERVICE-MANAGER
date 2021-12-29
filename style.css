@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Crafty+Girls&family=Exo+2:ital,wght@1,900&family=Montserrat:ital@1&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Crafty+Girls&family=Exo+2:ital,wght@1,900&family=Montserrat:ital@1&family=Nixie+One&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Crafty+Girls&family=Exo+2:ital,wght@1,900&family=Montserrat:ital@1&family=Nixie+One&family=Poppins:wght@200&family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Crafty+Girls&family=Exo+2:ital,wght@1,900&family=Montserrat:ital@1&family=Nixie+One&family=Nunito:wght@700&family=Poppins:wght@200&family=Raleway:wght@900&display=swap');
+body{
+    margin: 0px auto;
+}
+.logo{
+    font-family: 'Exo 2', sans-serif;
+    margin: 0px;
+}
+.logo p{
+    margin: 0px auto;
+}
+.menu{
+    font-family: 'Nixie One', cursive;
+    font-size: 14px;
+    
+}
+.menu span:hover{
+    color: black;
+}
+header{
+    display: grid;
+    background: #11c1c4;
+    height: 750px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+}
+.wrapper-menu{
+    display: grid;
+    grid-template-columns:1fr 6fr 0.5fr;
+    grid-template-rows: 1fr;
+    padding-top: 50px;
+    height: 30px;
+    align-items: end;
+    justify-items: center;
+    cursor: pointer;
+}
+.wrapper-menu button{
+    width: 80px;
+    height: 25px;
+    background:#11c1c4 ;
+    border: 1px solid white;
+    font-family: 'Nixie One', cursive;
+    color: white;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.menu span{
+    padding: 15px;
+}
+.block-left h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    margin: 0px;
+}
+.block-left p{
+    font-family: 'Nixie One', cursive;
+    font-size: 18px;
+
+}
+.wrapper-buttons button{
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: #061e37;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size:15px ;
+}
+.wrapper-buttons button:hover{
+    color:white ;
+    background:#061e37 ;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+    opacity: 0.9;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/* .video-block{
+    background: url('img/outline_slideshow_white_48dp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.wrapper-menu-block-second{
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+}
